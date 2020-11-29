@@ -134,11 +134,11 @@ export async function getStaticPaths() {
   const { data: products } = await commerce.products.list();
 
   // Get the paths we want to pre-render based on product
-  const paths = products.map(product => ({
+  const paths = products ? products.map(product => ({
     params: {
       permalink: product.permalink,
     },
-  }));
+  })) : [];
 
   // We'll pre-render only these paths at build time.
   return {
