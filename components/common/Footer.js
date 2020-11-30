@@ -11,14 +11,14 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://commercejs.com/docs/"
+                href="https://docs.theupncoming.com"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
                 Documentation
               </a>
               <a
-                href="https://commercejs.com/features"
+                href="https://theupncoming.com/features"
                 className="d-block font-color-medium"
                 target="_blank"
               >
@@ -27,14 +27,14 @@ const Footer = () => (
             </div>
             <div>
               <a
-                href="https://commercejs.com/company/about"
+                href="https://about.theupncoming.com"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
                 About
               </a>
               <a
-                href="http://slack.commercejs.com/"
+                href="http://about.theupncoming.com"
                 className="d-block font-color-medium"
                 target="_blank"
               >
@@ -50,14 +50,14 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://twitter.com/commercejs"
+                href="https://twitter.com/theupncoming"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
                 Twitter
               </a>
               <a
-                href="https://www.instagram.com/commerce.js/"
+                href="https://www.instagram.com/theupncoming/"
                 className="d-block font-color-medium"
                 target="_blank"
               >
@@ -66,14 +66,14 @@ const Footer = () => (
             </div>
             <div>
               <a
-                href="https://angel.co/company/chec"
+                href="https://angel.co/company/theupncoming"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
               >
                 Angel
               </a>
               <a
-                href="https://www.linkedin.com/company/chec-chec-commerce-inc.-/"
+                href="https://www.linkedin.com/company/theupncoming/"
                 className="d-block font-color-medium"
                 target="_blank"
               >
@@ -103,7 +103,7 @@ const Footer = () => (
         <div className="custom-container d-flex flex-column flex-md-row align-items-center justify-content-between">
           <div className="pt-5 pb-0 pt-md-4 pb-md-4 d-flex align-items-center flex-wrap justify-content-center">
             <a
-              href="https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://app.netlify.com/start/deploy?repository=https://github.com/abigger87/theupncoming"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
@@ -111,7 +111,7 @@ const Footer = () => (
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://github.com/abigger87/theupncoming"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
@@ -119,7 +119,7 @@ const Footer = () => (
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://github.com/abigger87/theupncoming"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
@@ -132,7 +132,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() } The Up N Coming
             </a>
           </div>
         </div>

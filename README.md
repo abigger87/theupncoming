@@ -1,12 +1,12 @@
-# Demo Store with Commerce.js and Next.js 🛍️💳
+# [TheUpNComing](https://theupncoming.com) with Commerce.js and Next.js 🛍️💳
 
 [![Netlify Status](https://img.shields.io/netlify/157bb2e2-611e-4bbd-9a59-c876f8c3c58a?style=for-the-badge)](https://app.netlify.com/sites/commercejs-demo-store/deploys)
-[![Stars](https://img.shields.io/github/stars/chec/commercejs-nextjs-demo-store?style=for-the-badge)](https://github.com/chec/commercejs-nextjs-demo-store)
-[![Forks](https://img.shields.io/github/forks/chec/commercejs-nextjs-demo-store?style=for-the-badge)](https://github.com/chec/commercejs-nextjs-demo-store/fork)
+[![Stars](https://img.shields.io/github/stars/abigger87/theupncoming?style=for-the-badge)](https://github.com/abigger87/theupncoming)
+[![Forks](https://img.shields.io/github/forks/abigger87/theupncoming?style=for-the-badge)](https://github.com/abigger87/theupncoming/fork)
 
-A high-fidelity fully-fledged eCommerce demo store built using the [Commerce.js](https://commercejs.com/) SDK and [Next.js](https://nextjs.org) with live deployment to Netlify.
+A high-fidelity fully-fledged eCommerce art store built using the [Commerce.js](https://commercejs.com/) SDK and [Next.js](https://nextjs.org) with live deployment to Netlify.
 
-[![Chec see live demo button](https://cdn.chec.io/email/assets/marketing/chec-demo-btn.svg)](https://commercejs-demo-store.netlify.app)
+[Live Site](https://theupncoming.com)
 
 **Note**
 - This app is built using [Commerce.js](https://commercejs.com/) v2 SDK
@@ -32,9 +32,9 @@ A high-fidelity fully-fledged eCommerce demo store built using the [Commerce.js]
 
 ## Overview
 
-This README will guide you in getting up and running with a fully-fledged eCommerce template. We have configured this template for you to one-click deploy directly to Netlify. Alternatively, you can manually deploy to your choice of hosting platform.
+This README will guide you in getting up and running with this eCommerce store. We have configured this store for you to one-click deploy directly to Netlify. Alternatively, you can manually deploy to your choice of hosting platform.
 
-For a full detailed tutorial on building this JAMstack eCommerce application, please head on over [here](https://www.netlify.com/blog/2020/07/09/create-a-fully-fledged-jamstack-commerce-store-with-commerce.js-and-netlify/).
+For a full detailed tutorial on building a basic version of this JAMstack eCommerce application, please head on over [here](https://www.netlify.com/blog/2020/07/09/create-a-fully-fledged-jamstack-commerce-store-with-commerce.js-and-netlify/).
 
 
 ## Prerequisites
@@ -60,13 +60,13 @@ Follow the rest of the walk-through to set up your merchant details. Alternative
 
 ## One-click Deploy with Netlify (recommended)
 
-The one-click deploy allows you to connect Netlify to your GitHub account to clone the `commercejs-nextjs-demo-store` repository and deploy it automatically. Be sure to go to [Netlify](https://app.netlify.com/signup) and sign up for an account before clicking the deploy button.
+The one-click deploy allows you to connect Netlify to your GitHub account to clone the `theupncoming` repository and deploy it automatically. Be sure to go to [Netlify](https://app.netlify.com/signup) and sign up for an account before clicking the deploy button.
 
- [![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store)
+ [![Deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abigger87/theupncoming)
 
-By clicking the above button, you will be navigated to the Netlify’s direct deploy page with the project’s repository passed as parameters in the url. Click the **Connect to GitHub** button, name your repository and enter in this [public key](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/.env.example#L2) in the **Chec Public Key** input. Please note that for the purpose of getting you up and running with a live deploy preview of the demo store, we provided you with the Public Key from our demo merchant account. Now, save & deploy your site.
+By clicking the above button, you will be navigated to the Netlify’s direct deploy page with the project’s repository passed as parameters in the url. Click the **Connect to GitHub** button, name your repository and enter in this [public key](https://github.com/abigger87/theupncoming/blob/master/.env.example#L2) in the **Chec Public Key** input. Please note that for the purpose of getting you up and running with a live deploy preview of the demo store, we provided you with the Public Key from our demo merchant account. Now, save & deploy your site.
 
-*Please note the initial build will fail if you enter in your public key instead of the provided demo merchant [key](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/.env.example#L2). The one-click deploy is meant for presentation purposes to spin up a quick deploy. Using your merchant account would mean you would need to have the appropriate data such as multiple assets and categories associated with your products. If you would like to use your merchant account, please follow the manual setup steps below.*
+*Please note the initial build will fail if you enter in your public key instead of the provided demo merchant [key](https://github.com/abigger87/theupncoming/blob/master/.env.example#L2). The one-click deploy is meant for presentation purposes to spin up a quick deploy. Using your merchant account would mean you would need to have the appropriate data such as multiple assets and categories associated with your products. If you would like to use your merchant account, please follow the manual setup steps below.*
 
 ## Manual setup and Netlify deployment
 
@@ -76,7 +76,7 @@ Manual setup involves cloning the repo into your local environment, seeding the 
 
 ```bash
 # Clone the repository locally, optionally rename the repo, change into the directory
-git clone https://github.com/chec/commercejs-nextjs-demo-store.git chec-store 
+git clone https://github.com/abigger87/theupncoming.git chec-store 
 # Change into the directory and install dependencies
 cd chec-store && yarn
 ```
@@ -115,7 +115,7 @@ yarn dev
 
 Now head on over to http://localhost:3000 after starting your development, your site should now be populated with the sample data!
 
-If you are replacing the sample products, be sure to add new categories in the dashboard, associate your products with them and lastly replace the `slug` and `link` values [here](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/lib/collections.js).
+If you are replacing the sample products, be sure to add new categories in the dashboard, associate your products with them and lastly replace the `slug` and `link` values [here](https://github.com/abigger87/theupncoming/blob/master/lib/collections.js).
 
 **STEP 5.** Make any necessary changes you need and push the code to a repository on Github or your choice of platform.
 
@@ -149,9 +149,9 @@ seed some sample data to your Chec account. For more information, see [the Chec 
 
 ### Caveats with data customization (IMPORTANT)
 
-Because this project is a fully fledged storefront showcasing a custom design and user flow, there are certain caveats you will run into if you customize your data in the Chec Dashboard. One gotcha is with the categories data in the UI: additional collections data was added [here](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/lib/collections.js) and merged with the categories data in the API. If you add new or edit the seeded sample categories data, make sure to match up the slugs/permalink values in the collections data file. The app will expect the below inventory setup in order to build, so if you'd like to customize with your inventory in the backend make sure you:
+Because this project is a fully fledged storefront showcasing a custom design and user flow, there are certain caveats you will run into if you customize your data in the Chec Dashboard. One gotcha is with the categories data in the UI: additional collections data was added [here](https://github.com/abigger87/theupncoming/blob/master/lib/collections.js) and merged with the categories data in the API. If you add new or edit the seeded sample categories data, make sure to match up the slugs/permalink values in the collections data file. The app will expect the below inventory setup in order to build, so if you'd like to customize with your inventory in the backend make sure you:
 - Create your categories in the [dashboard](https://dashboard.chec.io/categories/new)
-- Replace the [collections data](https://github.com/chec/commercejs-nextjs-demo-store/blob/master/lib/collections.js) with the associated slugs and link paths to your created categories (this makes sure the collections images get merged into the collections data by matching the slugs).
+- Replace the [collections data](https://github.com/abigger87/theupncoming/blob/master/lib/collections.js) with the associated slugs and link paths to your created categories (this makes sure the collections images get merged into the collections data by matching the slugs).
 - If you want multiple assets to your products similar to the demo stores, you can [create assets](https://commercejs.com/docs/api/#create-new-asset) and [assign them to your products](https://commercejs.com/docs/api/#add-asset-to-product). [This guide](https://commercejs.com/blog/adding-assets-via-the-chec-api) walks through how to achieve this.
 
 ## 🥞 Stack
