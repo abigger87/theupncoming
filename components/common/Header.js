@@ -203,11 +203,14 @@ class Header extends Component {
             />
             <Link href="/">
               <a>
-                <img
+                {/*<img
                   src="/images/commerce.svg"
                   className="logo cursor-pointer"
                   alt="Logo"
-                />
+                />*/}
+                <h2>
+                  The Up N Coming
+                </h2>
               </a>
             </Link>
           </div>
