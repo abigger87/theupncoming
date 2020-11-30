@@ -18,12 +18,12 @@ const Home = () => (
       <title>Home | Up N Coming</title>
     </Head>
 
-    <HeroSection />
+    {/*<HeroSection />
     <HomeBanner />
-    <CategoryBanner />
+    <CategoryBanner />*/}
     <ProductsBanner />
-    <ExploreBanner />
-    <SocialMedia />
+    {/*<ExploreBanner />
+    <SocialMedia />*/}
     <Footer />
   </Root>
 );

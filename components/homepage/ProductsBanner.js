@@ -10,7 +10,7 @@ class ProductsBanner extends Component {
 
     return (
       <div className="custom-container py-5 my-5">
-        <div className="d-flex flex-column align-items-center mb-5 pb-4">
+        {/*<div className="d-flex flex-column align-items-center mb-5 pb-4">
           <p className="font-color-medium mb-4">
             Introducing Our Latest Products
           </p>
@@ -26,8 +26,10 @@ class ProductsBanner extends Component {
               <img src="/icon/arrow-long-right.svg" />
             </a>
           </Link>
-        </div>
-        <ProductRow products={products.slice(0, 4)} />
+        </div>*/}
+        <ProductRow rowtitle={"Up N Comers"} products={products.slice(0, 4)} />
+        <ProductRow rowtitle={"Popular"} products={products.slice(0, 4)} />
+        <ProductRow rowtitle={"Discoveries"} products={products.slice(0, 4)} />
       </div>
     );
   }

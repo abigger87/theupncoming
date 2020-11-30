@@ -1,6 +1,12 @@
 $color: rgba(0, 0, 0, 0);
 
 .hero-section {
+  min-height: 40vh;
+  background-color: #f6ac5a; //246 172 74
+  margin: 6rem 4rem 4rem 4rem;
+  //margin-top: 6rem;
+  border-radius: 2rem;
+
   .hero-slide {
     min-height: 85vh;
     background-size: cover;
